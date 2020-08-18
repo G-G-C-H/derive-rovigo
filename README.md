@@ -1,2 +1,2 @@
 # derive-rovigo
-Street View Travelling
+Street View Travelling with friendly terminal.
