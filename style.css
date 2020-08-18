@@ -1,3 +1,29 @@
+@font-face {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Syne-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: "Syne";
+  font-style: extra;
+  font-weight: 400;
+  src: url('./fonts/Syne-Extra.woff') format('woff');
+}
+@font-face {
+  font-family: "Syne";
+  font-style: mono;
+  font-weight: 400;
+  src: url('./fonts/Syne-Mono.woff') format('woff');
+}
+@font-face {
+  font-family: "Syne";
+  font-style: italic;
+  font-weight: 400;
+  src: url('./fonts/Syne-Italic.woff') format('woff');
+}
+
+
 html,
 body {
   margin: 0;
@@ -10,19 +36,23 @@ body {
 
 
 body, html {
-  background-color: #f7bdc3;
+  background-color: #c1c8ae;
   color: #008ea4;
   text-align: center;
   height: 100%;
   margin: 0;
-  font-family: 'Alata', sans-serif;
-  font-weight: normal;
+  font-family: syne;
   font-style: normal;
+  /* font-weight: normal; */
 }
+
 
 h1 {
   color: #d83516;
+  font-style: extra;
 }
+
+
 
 .my-fun-class {
   display: flex;
